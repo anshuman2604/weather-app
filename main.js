@@ -154,7 +154,7 @@ async function getweather() {
             video2.src =""
         }
         else {
-            if (walltime() >= 19) {
+            if (walltime() >= 19 || walltime() <= 5) {
                 video1.src=""
                 video2.src = "video/nightsky.webm"
             }
