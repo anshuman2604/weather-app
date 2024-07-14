@@ -118,6 +118,7 @@ body{
 }
 
 .weather p {
+    text-align: center;
     color: white;
     font-size: 30px;
     margin-top: 80px;
@@ -524,11 +525,13 @@ body{
 @media screen and (max-width: 500px) {
 
     .date {
-        left: 43%;
+        position: absolute;
+        margin: 0 auto;
+        left: unset;
         top: 66.9%;
         font-size: 15px;
-    }
-
+      }
+      
     .s{
         height: 140px;
     }
