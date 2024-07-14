@@ -165,7 +165,7 @@ async function getweather() {
             }
         }
         document.querySelector(".secondary").innerHTML = ""
-        for (const i in text.days) {
+        for (let i = 1; i < 15; i++) {
             document.querySelector(".secondary").innerHTML = document.querySelector(".secondary").innerHTML +
                 `<div class="block">
             <img src="${video1.src.split("webm")[0] + "png"}" class="backimg">
